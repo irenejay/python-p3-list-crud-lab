@@ -35,14 +35,12 @@ def retrieve_first_element_from_list(l):
 
 
 def retrieve_element_from_index(l, index):
-    if index < len(l):  # Check if the index is within the bounds of the list
+ 
         return l[index]
-    else:
-        return None  
+  
 
 
 def retrieve_last_element_from_list(l):
-    if l:  # Check if the list is not empty
+   
         return l[-1]  # Access the last element using the negative index
-    else:
-        return None  # Return None if the list is empty
+   
